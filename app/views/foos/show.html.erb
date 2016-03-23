@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Int number:</strong>
+  <%= @foo.int_number %>
+</p>
+
+<p>
+  <strong>Float number:</strong>
+  <%= @foo.float_number %>
+</p>
+
+<p>
+  <strong>Decimal number:</strong>
+  <%= @foo.decimal_number %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @foo.date %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @foo.name %>
+</p>
+
+<%= link_to 'Edit', edit_foo_path(@foo) %> |
+<%= link_to 'Back', foos_path %>

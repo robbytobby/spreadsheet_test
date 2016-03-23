@@ -1,0 +1,5 @@
+# sqlite
+## standard-active-record
+### ods
+ - int, float, dec working
+ - date in 'eng_format
