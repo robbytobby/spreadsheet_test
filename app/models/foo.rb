@@ -5,10 +5,6 @@ class Foo < ActiveRecord::Base
     int_number.to_f / 100
   end
   
-  def name
-    computed_float
-  end
-
   #def spreadsheet_columns
   #  [:id, :int_number, :float_number, :decimal_number, :date, :name, :computed_float]
   #end
